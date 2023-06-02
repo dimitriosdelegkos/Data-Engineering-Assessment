@@ -27,7 +27,7 @@ pipeline on a local machine using Docker Compose
 
 ### Prerequisite steps
 
-- Create 3 tables in PostgreSQL, using this code:
+Once the pipeline is accessible from the http://localhost:8080, create 3 tables in PostgreSQL, using this code:
 ```
 create table nusers (userid Varchar(20) Primary key);
 
