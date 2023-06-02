@@ -18,12 +18,12 @@ pipeline on a local machine using Docker Compose
 
 - Clone this repo
 - Navigate (via cmd) to the folder where the cloned directory is
-- Complete the prerequisite steps
 - Run the service
 ```
  docker-compose up -d
 ```
 - Check http://localhost:8080
+- Complete the prerequisite steps
 
 ### Prerequisite steps
 
