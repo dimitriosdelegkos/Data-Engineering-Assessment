@@ -1,5 +1,5 @@
 # Description: This script is an automated pipeline that extracts data from 2 csv files, transforms it and loads it into a postgres database.
-# Note: I used pandas to do the ETL process (instead of Spark), because of some configuration problem.
+# Note: I used pandas to do the ETL process (instead of Spark)
 
 from datetime import datetime, timedelta
 from sqlalchemy import create_engine
